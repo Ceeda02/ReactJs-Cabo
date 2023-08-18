@@ -1,3 +1,16 @@
+EXTRACT then run the terminal in vscode.
+1. cd react-activity
+2. npm install
+3. If it results to an error, try installing angular cli -> npm install -g @angular/cli@8
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
