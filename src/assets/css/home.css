@@ -1,0 +1,73 @@
+#home .portfolio-intro {
+  background-color: #23272b;
+  padding: 50px 0;
+}
+
+#home .home-container {
+  max-width: 80%;
+  margin-top: 80px;
+}
+
+#home .portfolio-intro-text {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex; /* Display image and text side by side */
+  align-items: center; /* Center vertically */
+}
+
+#home .intro-text {
+  flex: 1; /* Take remaining width */
+}
+
+#home .portfolio-hello {
+  font-size: 2.8rem; /* Increase font size */
+  font-weight: 600;
+  color: white;
+}
+
+#home .portfolio-name {
+  font-size: 4rem; /* Increase font size */
+  font-weight: 700;
+  color: white;
+}
+
+#home .portfolio-cabo {
+  font-size: 5.5rem;
+  color: #007bff; /* Blue color */
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+#home .portfolio-role {
+  font-size: 2.5rem; /* Increase font size */
+  color: white;
+}
+
+#home .fade-out {
+  opacity: 0;
+  transition: opacity 0.4s ease-out; /* Apply a smooth opacity transition */
+}
+
+#home .nav-link:hover {
+  color: #007bff;
+}
+
+#home .list-unstyled {
+  border: 1px solid black;
+}
+
+#home .tech-stack-list i:hover {
+  color: #007bff;
+}
+
+#home .social-icon {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0 10px;
+  color: #ffffff;
+  transition: color 0.3s;
+}
+
+#home .social-icon:hover {
+  color: #007bff;
+}
